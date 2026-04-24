@@ -1,6 +1,9 @@
 public class Fila {
 
     private Integer[] vetor;
+    private int inicio;
+    private int fim;
+    private int tamanho;
 
     public Fila (int tamanho) {
         this.vetor = new Integer[tamanho];
